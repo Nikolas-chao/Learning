@@ -135,13 +135,13 @@ git tag <tag-name>
 git merge --no--ff -m "message" <branch-name>
 ~~~
 
-![image-20240907105939688](D:\Desktop\git笔记\assets\image-20240907105939688.png)
+![image-20240907105939688](.\assets\image-20240907105939688.png)
 
 ~~~
 git merge --ff -m "message" <branch-name>
 ~~~
 
-![image-20240907110023955](D:\Desktop\git笔记\assets\image-20240907110023955.png)
+![image-20240907110023955](.\assets\image-20240907110023955.png)
 
 合并 & squash所有提交到一个分支
 
@@ -160,7 +160,7 @@ git chechout <dev>
 git rebase <main>
 ~~~
 
-![image-20240907110512947](D:\Desktop\git笔记\assets\image-20240907110512947.png)
+![image-20240907110512947](.\assets\image-20240907110512947.png)
 
 ### 11、撤销
 
@@ -323,7 +323,7 @@ git pull --rebase
 推送代码到远程仓库（然后再发起pull request）
 
 ~~~
-git ppush <remote-name> <branch-name>
+git push <remote-name> <branch-name>
 ~~~
 
 获取所有远程分支
