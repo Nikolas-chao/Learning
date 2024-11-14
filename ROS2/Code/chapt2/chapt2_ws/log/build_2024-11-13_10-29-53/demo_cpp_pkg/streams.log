@@ -1,0 +1,20 @@
+[0.013s] Invoking command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target learn_share_ptr[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.079s] [  8%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.083s] [ 58%] Built target learn_lambda
+[0.083s] [ 58%] Built target learn_share_ptr
+[0.083s] [ 58%] Built target learn_functional
+[0.089s] [ 75%] Built target person_node
+[0.091s] [ 91%] Built target cpp_node
+[0.110s] [01m[K/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.110s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.110s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.110s] compilation terminated.
+[0.112s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[0.112s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_thread.dir/all] Error 2
+[0.112s] gmake: *** [Makefile:146: all] Error 2
+[0.116s] Invoked command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16

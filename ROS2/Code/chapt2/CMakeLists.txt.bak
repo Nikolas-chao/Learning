@@ -1,0 +1,14 @@
+# cmake执行最低支持版本
+cmake_minimum_required(VERSION 3.8)
+# 工程配置
+project(ros_cpp)
+# 添加可执行文件   可执行文件名      文件名
+add_executable(ros2_cpp_node ros2_cpp_node.cpp)
+
+# 查找依赖                    
+find_package(rclcpp REQUIRED)   # 直接查找到对应的头文件和库文件
+message(STATUS ${rclcpp_INCLUDE_DIRS})  # 头文件及rclcpp依赖的头文件
+message(STATUS ${rclcpp_LIBRARIES})     # 库文件及rclcpp依赖的库文件
+
+target_include_directories(ros2_cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS})  # 包含头文件
+target_link_libraries(ros2_cpp_node ${rclcpp_LIBRARIES})  # 链接库文件

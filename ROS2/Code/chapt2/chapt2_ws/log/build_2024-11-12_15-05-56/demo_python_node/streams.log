@@ -1,0 +1,27 @@
+[0.523s] Invoking command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_python_node': PYTHONPATH=/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_node build --build-base /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/build install --record /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/install.log --single-version-externally-managed install_data
+[0.726s] running egg_info
+[0.727s] writing ../../build/demo_python_node/demo_python_node.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/demo_python_node/demo_python_node.egg-info/dependency_links.txt
+[0.728s] writing entry points to ../../build/demo_python_node/demo_python_node.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/demo_python_node/demo_python_node.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/demo_python_node/demo_python_node.egg-info/top_level.txt
+[0.731s] reading manifest file '../../build/demo_python_node/demo_python_node.egg-info/SOURCES.txt'
+[0.731s] adding license file 'LICENSE'
+[0.732s] writing manifest file '../../build/demo_python_node/demo_python_node.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] copying demo_python_node/person_node.py -> /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/build/lib/demo_python_node
+[0.733s] running install
+[0.733s] running install_lib
+[0.735s] copying /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/build/lib/demo_python_node/person_node.py -> /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages/demo_python_node
+[0.735s] byte-compiling /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages/demo_python_node/person_node.py to person_node.cpython-310.pyc
+[0.736s] running install_data
+[0.736s] running install_egg_info
+[0.739s] removing '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages/demo_python_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.739s] Copying ../../build/demo_python_node/demo_python_node.egg-info to /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages/demo_python_node-0.0.0-py3.10.egg-info
+[0.740s] running install_scripts
+[0.761s] Installing person_node script to /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/demo_python_node
+[0.762s] Installing python_node script to /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/demo_python_node
+[0.762s] Installing writer_node script to /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/demo_python_node
+[0.762s] writing list of installed files to '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/install.log'
+[0.805s] Invoked command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_python_node' returned '0': PYTHONPATH=/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_node build --build-base /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/build install --record /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_python_node/install.log --single-version-externally-managed install_data

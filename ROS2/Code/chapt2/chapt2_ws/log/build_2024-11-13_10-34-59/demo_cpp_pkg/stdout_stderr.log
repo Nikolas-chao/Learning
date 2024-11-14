@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 58%] Built target learn_functional
+[ 58%] Built target learn_share_ptr
+[ 58%] Built target learn_lambda
+[ 75%] Built target cpp_node
+[ 91%] Built target person_node
+[01m[K/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_thread.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

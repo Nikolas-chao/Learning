@@ -1,0 +1,6 @@
+[console_scripts]
+learn_thread = demo_python_node.learn_thread:main
+person_node = demo_python_node.person_node:main
+python_node = demo_python_node.python_node:main
+writer_node = demo_python_node.writer_node:main
+

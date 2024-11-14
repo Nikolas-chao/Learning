@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.088s] [ 58%] Built target learn_lambda
+[0.089s] [ 58%] Built target learn_share_ptr
+[0.089s] [ 58%] Built target learn_functional
+[0.089s] [ 58%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.090s] [ 75%] Built target cpp_node
+[0.093s] [ 91%] Built target person_node
+[0.100s] [01m[K/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.100s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.100s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.100s] compilation terminated.
+[0.101s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[0.101s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_thread.dir/all] Error 2
+[0.102s] gmake: *** [Makefile:146: all] Error 2
+[0.105s] Invoked command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/install/demo_python_node:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16

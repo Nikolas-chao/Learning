@@ -1,0 +1,54 @@
+[0.021s] Invoking command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.103s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.333s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.352s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.669s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.757s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.757s] -- Configured cppcheck include dirs: /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_cpp_pkg/include
+[0.757s] -- Configured cppcheck exclude dirs and/or files: 
+[0.759s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.764s] -- Added test 'lint_cmake' to check CMake code style
+[0.766s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.777s] -- Added test 'uncrustify' to check C / C++ code style
+[0.778s] -- Configured uncrustify additional arguments: 
+[0.780s] -- Added test 'xmllint' to check XML markup files
+[0.784s] -- Configuring done
+[0.818s] -- Generating done
+[0.821s] -- Build files have been written to: /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.852s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.852s] [35m[1mConsolidate compiler generated dependencies of target learn_share_ptr[0m
+[0.853s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[0.853s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.853s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.864s] [  8%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.868s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_share_ptr.dir/src/learn_share_ptr.cpp.o[0m
+[0.869s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[0.869s] [ 33%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[0.876s] [ 41%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[0.876s] [ 50%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[0.922s] [01m[K/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.922s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.922s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.922s] compilation terminated.
+[0.924s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[0.924s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_thread.dir/all] Error 2
+[0.924s] gmake[1]: *** Waiting for unfinished jobs....
+[1.309s] [ 58%] [32m[1mLinking CXX executable learn_lambda[0m
+[1.320s] [ 66%] [32m[1mLinking CXX executable learn_share_ptr[0m
+[1.380s] [ 75%] [32m[1mLinking CXX executable learn_functional[0m
+[1.446s] [ 75%] Built target learn_lambda
+[1.446s] [ 75%] Built target learn_share_ptr
+[1.497s] [ 75%] Built target learn_functional
+[3.647s] [ 83%] [32m[1mLinking CXX executable cpp_node[0m
+[3.698s] [ 91%] [32m[1mLinking CXX executable person_node[0m
+[3.800s] [ 91%] Built target cpp_node
+[3.826s] [ 91%] Built target person_node
+[3.827s] gmake: *** [Makefile:146: all] Error 2
+[3.830s] Invoked command in '/home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Code/ROS2/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
