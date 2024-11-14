@@ -1,0 +1,10 @@
+[01m[K/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircleNode::TurtleCircleNode(const string&)[m[K’:
+[01m[K/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:15:81:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleCircleNode::timer_callback()[m[K’
+   15 |             timer_ = this->create_wall_timer(1000ms,std::bind([01;31m[KTurtleCircleNode::timer_callback[m[K,this));
+      |                                                               [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:18:14:[m[K [01;36m[Knote: [m[Kdeclared here
+   18 |         void [01;36m[Ktimer_callback[m[K(){
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76: CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_circle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

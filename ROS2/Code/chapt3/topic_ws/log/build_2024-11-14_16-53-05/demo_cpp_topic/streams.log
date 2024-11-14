@@ -1,0 +1,37 @@
+[0.017s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic
+[0.029s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.163s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.165s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.170s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.215s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.216s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.350s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.360s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.392s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.484s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.484s] -- Configured cppcheck include dirs: 
+[0.484s] -- Configured cppcheck exclude dirs and/or files: 
+[0.485s] -- Added test 'lint_cmake' to check CMake code style
+[0.487s] -- Added test 'uncrustify' to check C / C++ code style
+[0.487s] -- Configured uncrustify additional arguments: 
+[0.488s] -- Added test 'xmllint' to check XML markup files
+[0.491s] -- Configuring done
+[0.495s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.495s]   Cannot find source file:
+[0.495s] 
+[0.495s]     src/turcle_circle.cpp
+[0.495s] 
+[0.495s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.495s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.495s] 
+[0.495s] [0m
+[0.495s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.495s]   No SOURCES given to target: turtle_circle
+[0.495s] 
+[0.495s] [0m
+[0.496s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.503s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic

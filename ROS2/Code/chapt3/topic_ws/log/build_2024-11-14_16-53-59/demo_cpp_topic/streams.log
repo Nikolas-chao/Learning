@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[4.262s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[4.561s] [100%] Built target turtle_circle
+[4.575s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic -- -j16 -l16
+[4.622s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic
+[4.631s] -- Install configuration: ""
+[4.631s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[4.642s] -- Set runtime path of "/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[4.642s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[4.642s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[4.642s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[4.642s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[4.643s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[4.643s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[4.643s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[4.643s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[4.643s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[4.644s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[4.644s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[4.644s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[4.644s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[4.645s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[4.645s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[4.647s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_ws/build/demo_cpp_topic
