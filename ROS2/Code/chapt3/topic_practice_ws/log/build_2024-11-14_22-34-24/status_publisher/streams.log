@@ -1,0 +1,23 @@
+[0.864s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/src/status_publisher': PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.156s] running egg_info
+[1.157s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.158s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.158s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.158s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.158s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.161s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.161s] adding license file 'LICENSE'
+[1.162s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.162s] running build
+[1.162s] running build_py
+[1.162s] running install
+[1.163s] running install_lib
+[1.164s] running install_data
+[1.164s] copying package.xml -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/status_publisher
+[1.165s] running install_egg_info
+[1.166s] removing '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.167s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[1.167s] running install_scripts
+[1.189s] Installing sys_status_pub script to /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[1.190s] writing list of installed files to '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log'
+[1.228s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/src/status_publisher' returned '0': PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

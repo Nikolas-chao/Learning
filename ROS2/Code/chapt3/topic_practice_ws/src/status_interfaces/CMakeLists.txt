@@ -8,11 +8,12 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
-find_package(rosidl_default_genterators REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
-# cmake函数，来自rosidl_default_genterators，用于将消息接口定义文件转换成库或头文件
-rosidl_genterators_interfaces(
-
+# cmake函数，来自rosidl_default_genterators，用于将消息接口定义文件转换成库或头文件——————————————————————————————————————————————————————————————————！！！！！！！！！！！！！！！！！！！！
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/SystemStatus.msg"
+  DEPENDENCIES builtin_interfaces
 )
 
 if(BUILD_TESTING)
