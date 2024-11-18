@@ -1,0 +1,38 @@
+[0.543s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces LD_LIBRARY_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.729s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.729s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.730s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.731s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.731s] adding license file 'LICENSE'
+[0.732s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build
+[0.732s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib
+[0.732s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.732s] copying status_publisher/__init__.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.733s] copying status_publisher/sys_status_pub.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[0.733s] running install
+[0.733s] running install_lib
+[0.734s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.734s] copying /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.734s] copying /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.734s] byte-compiling /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[0.734s] byte-compiling /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[0.735s] running install_data
+[0.735s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/ament_index
+[0.735s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[0.735s] creating /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.735s] copying resource/status_publisher -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.735s] copying package.xml -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/share/status_publisher
+[0.736s] running install_egg_info
+[0.737s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[0.738s] running install_scripts
+[0.756s] Installing sys_status_pub script to /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[0.756s] writing list of installed files to '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log'
+[0.778s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces LD_LIBRARY_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
