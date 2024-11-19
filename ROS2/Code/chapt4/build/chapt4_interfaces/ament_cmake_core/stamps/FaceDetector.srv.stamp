@@ -1,0 +1,8 @@
+sensor_msgs/Image image # 原始图像
+---
+int16 num
+float32 use_time
+int32[] top
+int32[] right
+int32[] bottom
+int32[] left

@@ -1,0 +1,27 @@
+[0.550s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/src/demo_python_service': PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.746s] running egg_info
+[0.747s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.747s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.748s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.748s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.749s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.749s] adding license file 'LICENSE'
+[0.750s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.750s] copying demo_python_service/face_detect_client_node.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.751s] running install
+[0.751s] running install_lib
+[0.752s] copying /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.752s] byte-compiling /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[0.753s] running install_data
+[0.753s] running install_egg_info
+[0.755s] removing '/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.755s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.756s] running install_scripts
+[0.773s] Installing face_detect script to /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/demo_python_service
+[0.774s] Installing face_detect_client_node script to /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/demo_python_service
+[0.774s] Installing learn_face_detect script to /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/demo_python_service
+[0.774s] writing list of installed files to '/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/install.log'
+[0.799s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/src/demo_python_service' returned '0': PYTHONPATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/WorkSpace/Learning/ROS2/Code/chapt4/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/build install --record /home/cat/WorkSpace/Learning/ROS2/Code/chapt4/build/demo_python_service/install.log --single-version-externally-managed install_data

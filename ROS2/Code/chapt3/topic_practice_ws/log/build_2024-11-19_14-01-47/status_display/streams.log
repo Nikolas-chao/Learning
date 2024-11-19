@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.092s] [ 50%] Built target hello_qt
+[0.104s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[8.776s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[9.792s] [100%] Built target sys_status_display
+[9.808s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display -- -j16 -l16
+[9.850s] Invoking command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display
+[9.859s] -- Install configuration: ""
+[9.859s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[9.859s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[9.865s] -- Set runtime path of "/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[9.865s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[9.865s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[9.865s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[9.865s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[9.866s] -- Installing: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[9.866s] -- Up-to-date: /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[9.869s] Invoked command in '/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_interfaces:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_display:/home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/cat/WorkSpace/Learning/ROS2/Code/chapt3/topic_practice_ws/build/status_display
